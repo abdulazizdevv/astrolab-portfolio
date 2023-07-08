@@ -1,0 +1,61 @@
+@use "../../assets/scss/variables.scss" as v;
+
+.about_bg {
+  // .cometa {
+  //   &:hover {
+  //     left: 400px !important;
+  //     top: 700px !important;
+  //     transition: 2s;
+  //     opacity: 0 !important;
+  //   }
+  // }
+  .all_hero {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  .text {
+    .all_txt {
+      margin-top: 25px;
+    }
+    &_h1 {
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px;
+      color: v.$white;
+      width: 277px;
+    }
+    &_p {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 592px;
+      height: 351px;
+      font-style: normal;
+      font-weight: 400;
+      color: v.$white;
+      position: relative;
+      z-index: 60;
+    }
+  }
+
+  .globus {
+    &_img {
+      width: 558.09px;
+    }
+    position: absolute;
+    right: 100px;
+    .tops {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 81.69px;
+      height: 61.02px;
+      border: 1px solid v.$white;
+      border-radius: 40px;
+      position: absolute;
+      top: 382px;
+      left: 237px;
+    }
+  }
+}

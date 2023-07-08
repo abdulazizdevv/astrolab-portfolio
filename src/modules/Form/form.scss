@@ -1,0 +1,57 @@
+@import "../../assets/scss/variables.scss";
+
+.all_form {
+  &_h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: $white;
+  }
+  form {
+    input {
+      background-color: transparent;
+      outline: none;
+      opacity: 0.5;
+      border: 1px solid $white;
+      border-radius: 15px;
+      width: 100%;
+      padding: 15px 11px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: $white;
+      margin-top: 20px;
+    }
+    textarea {
+      opacity: 0.5;
+      border: 1px solid $white;
+      outline: none;
+      border-radius: 15px;
+      margin-top: 20px;
+      background-color: transparent;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: $white;
+      padding: 15px 11px;
+      height: 242px;
+      width: 100%;
+    }
+    .btn_send {
+      background: $bgBtn;
+      border-radius: 30px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      padding: 6px 39px;
+      border: none;
+      color: $white;
+      margin-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    // background-color: #0b0b21;
+    background-color: #2e4683;
+    color: $white;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.defaultLinear {
+    background: linear-gradient(180deg, #0b0b21 5.21%, #2e4683 100%);
+}
+
+.boxShadow {
+    box-shadow: 0 0 29px -9px rgb(0 0 0/25%);
+}

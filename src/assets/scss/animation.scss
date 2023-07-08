@@ -1,0 +1,49 @@
+.mouse {
+    animation: mouseAnimation 3s infinite;
+}
+
+@keyframes mouseAnimation {
+    0% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.animationBtn {
+    border-radius: 40px;
+    background-color: #fff;
+    background-image: #2e4683;
+    background-image: -moz-linear-gradient(top, #2e4683 0%, #2e4683 100%);
+    background-image: -webkit-linear-gradient(top, #2e4683 0%, #2e4683 100%);
+    background-image: linear-gradient(to bottom, #2e4683 0%, #2e4683 100%);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    transition: background 0.1 ease-in-out;
+}
+.animationBtn:hover {
+    background-position: -200%;
+    transition: background 0.7s ease-in-out;
+    color: #2e4683;
+}
+.animationBtnFilter {
+    background-position: -200%;
+    transition: background 0.7s ease-in-out;
+    color: #2e4683;
+}
+.animationText {
+    transition: 3s;
+    animation: textAnimation 1s ease-in-out;
+}
+@keyframes textAnimation {
+    0% {
+        opacity: 0;
+        transform: translatex(-500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
